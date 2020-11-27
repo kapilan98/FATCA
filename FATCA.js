@@ -59,10 +59,10 @@ setStyle("label326","visible","false");
 	setStyle("label313","visible","false");
 	
 	//below four lines by k
-
-	setTabStyle("tab4", 2, "visible", "false");
-	setTabStyle("tab4", 3, "visible", "false");
-	setTabStyle("tab4", 4, "visible", "false");
+//
+//	setTabStyle("tab4", 2, "visible", "false");
+	setTabStyle("tab4", 3, "visible", "true");
+	setTabStyle("tab4", 4, "visible", "true");
 	
 	//document.getElementById('sheet18_link').style.pointerEvents = 'none';
 	//document.getElementById('sheet61_link').style.pointerEvents = 'none';
@@ -1119,14 +1119,14 @@ function option1_liveagency(){
                     setStyle("label325","visible","true");//setting msg to be displayed
 					setStyle("label326",'visible','false');
 					  setStyle("label32","visible","false");
-					  setTabStyle("tab4", 1, "visible", "true");// the below 4 lines bt k
-					setTabStyle("tab4", 2, "visible", "true");
+					 //setTabStyle("tab4", 1, "visible", "true");// the below 4 lines bt k
+					//setTabStyle("tab4", 2, "visible", "true");
 					setTabStyle("tab4", 3, "visible", "true");
-					setTabStyle("tab4", 4, "visible", "true");
-					document.getElementById('sheet18_link').style.pointerEvents = 'auto';
-					document.getElementById('sheet61_link').style.pointerEvents = 'auto';
+					//setTabStyle("tab4", 4, "visible", "true");
+					//document.getElementById('sheet18_link').style.pointerEvents = 'auto';
+					//document.getElementById('sheet61_link').style.pointerEvents = 'auto';
 					document.getElementById('sheet62_link').style.pointerEvents = 'auto';
-					document.getElementById('sheet65_link').style.pointerEvents = 'auto';
+					//document.getElementById('sheet65_link').style.pointerEvents = 'auto';
 			
                     setValues({"outcome": "FATCA REQUIRED" }, true);
             }
@@ -1152,13 +1152,13 @@ function option1_liveagency(){
 				setStyle("label328",'visible','false');
 					setStyle("label327","visible","true");//setting msg to be displayed
 					
-					setTabStyle("tab4", 2, "visible", "true");// here 3 lines
+					//setTabStyle("tab4", 2, "visible", "true");// here 3 lines
 					setTabStyle("tab4", 3, "visible", "true");
-					setTabStyle("tab4", 4, "visible", "true");
-					document.getElementById('sheet18_link').style.pointerEvents = 'auto';
-					document.getElementById('sheet61_link').style.pointerEvents = 'auto';
+					//setTabStyle("tab4", 4, "visible", "true");
+					//document.getElementById('sheet18_link').style.pointerEvents = 'auto';
+					//document.getElementById('sheet61_link').style.pointerEvents = 'auto';
 					document.getElementById('sheet62_link').style.pointerEvents = 'auto';
-					document.getElementById('sheet65_link').style.pointerEvents = 'auto';
+					//document.getElementById('sheet65_link').style.pointerEvents = 'auto';
 					setValues({"outcome": "FATCA Not REQUIRED" }, true);
 					
 					setValues({"outcome": "FATCA Not REQUIRED" }, true);
@@ -1187,14 +1187,14 @@ function option1_liveagency(){
 					setTabStyle("tab4", 2, "visible", "false");// here by k
                     setValues({"outcome": "FATCA Not REQUIRED" }, true);
 					
-					setTabStyle("tab4", 1, "visible", "true");//below 4 lines by k
-					setTabStyle("tab4", 2, "visible", "true");
+					//setTabStyle("tab4", 1, "visible", "true");//below 4 lines by k
+					//setTabStyle("tab4", 2, "visible", "true");
 					setTabStyle("tab4", 3, "visible", "true");
-					setTabStyle("tab4", 4, "visible", "true");
-					document.getElementById('sheet18_link').style.pointerEvents = 'auto';
-					document.getElementById('sheet61_link').style.pointerEvents = 'auto';
-					document.getElementById('sheet62_link').style.pointerEvents = 'auto';
-					document.getElementById('sheet65_link').style.pointerEvents = 'auto';
+					//setTabStyle("tab4", 4, "visible", "true");
+					//document.getElementById('sheet18_link').style.pointerEvents = 'auto';
+					//document.getElementById('sheet61_link').style.pointerEvents = 'auto';
+					//document.getElementById('sheet62_link').style.pointerEvents = 'auto';
+					//document.getElementById('sheet65_link').style.pointerEvents = 'auto';
                     
 					
                     showMessage("Option6_dealcondition","No further action is required. You may proceed to click on the “Complete” button to complete this FATCA activity","Confirm");
